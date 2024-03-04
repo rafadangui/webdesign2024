@@ -18,4 +18,44 @@ Dentro de um documento de marcação **HTML** não podemos simplesmente "jogar" 
 ```html
 <!DOCTYPE html>
 ```
-2. 
+2. Após a declaração do tipo do documento devemos iniciar as _tags_ do elemento raiz do documento **HTML**. O elemento raiz engloba toda a marcação **HTML**. A _tag_ raiz também deve conter a linguagem da página, no nosso caso **Portugues Brasil**, essa configuração é representada pelo valor: **pt-br**. A informação do idioma da página é importante para que tecnologias assistivas, como leitores de texto, possam identificar o idioma e ler o conteúdo com a pronuncia adequada. Essa configuração deve ser feita por meio de um atributo chamado **lang**. Voltando ao elemento raiz, ele deve ter a _tag_ de aberto e de fechamento do documento.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+```
+3. Todo conteúdo **HTML** de um documento fica aninhado dentro da _tag_ raiz, o próximo elemento **HTML** que deve conter no documento são as configurações de cabeçalho. As informações de cabeçalho são importantes pois possibilitam que o desenvolvedor exiba informações, como o título da página, como também configure parâmetros e arquivos adicionais que iram compor o documento, como por exemplo arquivos de formatação **CSS** (Cascading Style Sheets) Folha de Estilo em Cascata. A _tag_ de cabeçalho é representada pelo elemento **HEAD**, esse elemente apresenta-se como uma seção, pois aceita vários outros elementos dentro dele. Assim como outros elementos **HTML** necessita da _tag de abertura e fechamento.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head></head>
+</html>
+```
+4. As informações que são exibidas para o usuário devem ficar em uma seção específica do documento **HTML** essa seção é chamada de corpo do documento, representada pela _tag_ **BODY**. Todos os elementos **HTML** que estiverem dentro da tag **body** serão renderizados (exibidos) na ordem que estão no documento. A seção **BODY** aceita muitos elementros **HTML** dentro dela, ao todo temos 108 elementos **HTML** que podem compor um documento. A _tag_ **body** fica logo após a _tag_ **head**, também necessita de _tag_ de abertura e fechamento.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head></head>
+  <body></body>
+</html>
+```
+```html
+<!DOCTYPE html> -> Define o tipo de documento
+<html lang="pt-br">  -> Abertura do bloco HTML
+  <head></head> -> Seção do cabeçalho do documento
+  <body></body> -> Seção do corpo do documento
+</html> -> Fechamento do bloco HTML
+```
+### Elementos básicos do HEAD
+A seção do **HEAD** necessita de pelo menos dois elementos, o primeiro é o elemento/_tag_ que forma o título da página e o segundo o elemento/_tag_ de configuração da codificação do documento.
+1. O título de uma página é exibido na barra de títulos da aba, onde a página está sendo exibida, no navegador do usuário. Elemento com carater informativo, mas muito útil para que o usuário saiba identificar qual página está acessando. O título é composta pela _tag_ **TITLE**, assim como outras _tags_ necessita de abertura e fechamento. O conteúdo é inserido entre as _tags_ de abertura e fechamento.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Minha página web</title>
+  </head>
+  <body></body>
+</html>
+```
