@@ -45,3 +45,57 @@ O elemento **H** é responsável pela criação de títulos no conteúdo **HTML*
   </body>
 </html>
 ```
+## HR
+O elemento **HR** destina-se a criar uma linha horizontal no navegador, usado especialmente como separação de conteúdo no documento **HTML**. A _tag_ **hr** é uma _tag_ simples, não necessitando de fechamento.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Minha página web</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p>Essa é minha primeira página web</p>
+    <hr>
+    <p>Ela foi feita utilizando HTML 5</p>
+  </body>
+</html>
+```
+## SPAN
+O elemento **SPAN** é um elemento do tipo _inline_, destinado a criar um container geral para outros elementos, ou sejá, não tem uma destinação específica. A _tag_ **span** não é renderizada no navegador do usuário, parecendo não estar presente. A _tag_ **span** é utilizada em níveis mais avançados, principalmente para formação, podendo aplica formatação apenas ao conteúdo que estiver dentro dela. É um elemento **HTML** que necessita de abertura e fechamento e seu conteúdo fica entre as duas _tags_.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Minha página web</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p>Essa é minha <span>primeira</span> página web</p>
+    <hr>
+    <p>Ela foi feita utilizando HTML 5</p>
+  </body>
+</html>
+```
+## DIV
+O elemento **DIV** também um elemento que cria um container geral, podendo receber outros elementos **HTML** dentro dele. Não tem aspecto visual na renderização, mas é muito utilizado em níveis avançado como elemento de separação e formatação de seções da página web. A _tag_ **div** contém abertura e fechamento, podendo deceber outros elementos **HTML** entre as _tags_.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Minha página web</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div>
+      <h2>Sub seção da página</h2>
+      <p>Essa é minha <span>primeira</span> página web</p>
+    </div>
+    <hr>
+    <div>
+      <h3>Outra seção na página</h3>
+      <p>Ela foi feita utilizando HTML 5</p>
+    </div>
+  </body>
+</html>
+```
