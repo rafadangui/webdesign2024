@@ -59,3 +59,21 @@ A seção do **HEAD** necessita de pelo menos dois elementos, o primeiro é o el
   <body></body>
 </html>
 ```
+2. A codificação do arquivo **HTML** importante para que usuários localizados em diferentes países possam visualizar páginas cujo idioma contenha caracteres especiais sem a exibição de erros. A configuração de codificação do documento é inserida logo após o título da página, essa configuração é passada para o navegador do usuário através da _tag_ **META**. Essa _tag_ também é utilizada para muitas outras configurações. A codificação é representada pelo atributo **charset**, esse atríbuto necessita de um valor, assim como a **lang**, sendo o valor padrão **utf-8**, padrão amplamento utilizado.
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Minha página web</title>
+    <meta charset="utf-8">
+  </head>
+  <body></body>
+</html>
+```
+
+### Elementos de exibição
+- P
+- SPAN
+- H1-H6
+- HR
+- DIV
