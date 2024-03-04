@@ -1,5 +1,7 @@
 # Elementos de Exibição
 Os elementos/_tag_ de exibição são responsáveis por exibir conteúdo para o usuário, em sua grande maioria textos.
+##Itens do documento
+[P](#P)
 
 ## P
 O elemento **P** é responsável por colocar o conteúdo, dentro das _tags_ de abertura e fechamento, em um parágrafo no documento **HTML**. Esse parágrafo pode conter quantas linhas, caracteres e palavras que forem necessárias. Também podendo existir quantos blocos de _tag_ **p** forem necessárias no documento **HTML**.
