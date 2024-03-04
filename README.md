@@ -74,6 +74,6 @@ A seção do **HEAD** necessita de pelo menos dois elementos, o primeiro é o el
 ### Elementos de exibição
 - [P](elementosexibicao.md#P)
 - [H1-H6](elementosexibicao.md#H1-H6)
-- HR
-- SPAN
-- DIV
+- [HR](elementosexibicao.md#HR)
+- [SPAN](elementosexibicao.md#SPAN)
+- [DIV](elementosexibicao.md#DIV)
