@@ -37,7 +37,7 @@ O elemento **P** é responsável por colocar o conteúdo, dentro das _tags_ de a
   </body>
 </html>
 ```
-[:arrow_up: Voltar ao topo](#elementos-de-exibição)
+[:arrow_up: Voltar ao início](#elementos-de-exibição)
 
 
 ## H1-H6
@@ -55,7 +55,7 @@ O elemento **H** é responsável pela criação de títulos no conteúdo **HTML*
   </body>
 </html>
 ```
-[:arrow_up: Voltar ao topo](#elementos-de-exibição)
+[:arrow_up: Voltar ao início](#elementos-de-exibição)
 
 
 ## HR
@@ -74,7 +74,7 @@ O elemento **HR** destina-se a criar uma linha horizontal no navegador, usado es
   </body>
 </html>
 ```
-[:arrow_up: Voltar ao topo](#elementos-de-exibição)
+[:arrow_up: Voltar ao início](#elementos-de-exibição)
 
 
 ## SPAN
@@ -93,7 +93,7 @@ O elemento **SPAN** é um elemento do tipo _inline_, destinado a criar um contai
   </body>
 </html>
 ```
-[:arrow_up: Voltar ao topo](#elementos-de-exibição)
+[:arrow_up: Voltar ao início](#elementos-de-exibição)
 
 
 ## DIV
@@ -118,4 +118,4 @@ O elemento **DIV** também um elemento que cria um container geral, podendo rece
   </body>
 </html>
 ```
-[:arrow_up: Voltar ao topo](#elementos-de-exibição)
+[:arrow_up: Voltar ao início](#elementos-de-exibição)
