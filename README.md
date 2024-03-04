@@ -72,7 +72,7 @@ A seção do **HEAD** necessita de pelo menos dois elementos, o primeiro é o el
 ```
 
 ### Elementos de exibição
-- [P] (elementosexibicao.md)
+- [P](elementosexibicao.md)
 - SPAN
 - H1-H6
 - HR
